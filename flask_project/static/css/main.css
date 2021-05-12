@@ -1,0 +1,14 @@
+html * {
+    font-family: sans-serif;
+}
+tml, body, input, textarea, select, button {
+    border-color: #716b61;
+    color: #cac8c6;
+}
+tml, body, input, textarea, select, button {
+    background-color: #2c2d2e;
+}
+
+img {
+    max-width: 50px;
+}
