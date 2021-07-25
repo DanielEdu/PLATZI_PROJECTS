@@ -1,13 +1,13 @@
+"""
+SUMMARY.
 
-
-
-
-
+--------
+* Description:
+    Functions anonymous creation
+"""
 
 
 palindromo = lambda string: string == string[::-1]
-
-
 
 
 def run():
