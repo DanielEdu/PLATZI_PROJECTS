@@ -3,10 +3,11 @@ SUMMARY.
 
 --------
 * Tittle: 
-    High order functions.
+    High order functions (hof).
 * Description:
     A function that receives another function like a parameter and can execution it
     las funciones de orden superior retornan un iterador, se aplica list() para convertirlo a lista
+    resiven un iterable, como una lista por ejemplo
 """
 from functools import reduce
 

@@ -21,7 +21,7 @@ def filter_hof(data, lp):
 
 def add_flag(data):
     """ agregar una nueva llave con un MAP  """
-    is_old = list( map(lambda x:x | { "old": x["age"] > 65 }, data) )
+    is_old = list( map(lambda x:x | { "old": x["age"] > 65 }, data) )  # only python 3.9 pip operator
     return is_old
 
 
